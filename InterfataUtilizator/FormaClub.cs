@@ -44,9 +44,7 @@ namespace InterfataUtilizator
         #endregion
 
         #region handlere ale evenimentelor controalelor de pe forma (butoane)
-        /// <summary>
-        /// Adauga informatiile despre o masina in tabelul catalog_DEV
-        /// </summary>
+		
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// 
@@ -57,10 +55,6 @@ namespace InterfataUtilizator
            
         }
         
-
-        /// <summary>
-        /// Adauga o companie in tabelul companii_DEV
-        /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnAdaugaComp_Click(object sender, EventArgs e)
@@ -78,9 +72,7 @@ namespace InterfataUtilizator
 
         #region metode helper
 
-        /// <summary>
-        /// Afiseaza companiile din tabelul companii_DEV in controlul de tip combobox
-        /// </summary>
+
         
         
         private void IncarcaCluburi()
@@ -91,13 +83,7 @@ namespace InterfataUtilizator
                 //cmbCluburi.Items.Clear();
 
                 var cluburi = stocareCluburi.GetCluburi();
-                if (cluburi != null && cluburi.Any())
-                {
- /*                   foreach (var club in cluburi)
-                    {
-                        cmbCluburi.Items.Add(new ComboItem(club.numeClub, (Int32)club.idClub));
-                    }*/
-                }
+
             }
             catch (Exception ex)
             {
@@ -136,10 +122,6 @@ namespace InterfataUtilizator
             }
         }
 
-       /* private void label6_Click(object sender, EventArgs e)
-        {
-
-        }*/
 
         private void btnActualizeaza_Click(object sender, EventArgs e)
         {
@@ -194,81 +176,6 @@ namespace InterfataUtilizator
             {
                 MessageBox.Show(ex.Message.ToString());
             }
-        }
-
-        private void dataGridCluburi_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            /*int currentRowIndex = dataGridCluburi.CurrentCell.RowIndex;
-            string idClub = dataGridCluburi[PRIMA_COLOANA, currentRowIndex].Value.ToString();
-
-            try
-            {
-                Club c = stocareCluburi.GetClub(Int32.Parse(idClub));
-
-                //incarcarea datelor in controalele de pe forma
-                if (c != null)
-                {
-                    txtNumeClubAdd.Text = c.numeClub;
-                    txtNumeClubEdit.Text = c.numeClub;
-                    txtNumeClubFind.Text = c.numeClub;
-                    txtNumeManagerAdd.Text = c.numeManager;
-                    txtNumeManagerEdit.Text = c.numeManager;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }*/
-        }
-
-        private void dataGridCluburi_CellValueChanged(object sender, DataGridViewCellEventArgs e)
-        {
-           /* int currentRowIndex = dataGridCluburi.CurrentCell.RowIndex;
-            string idClub = dataGridCluburi[PRIMA_COLOANA, currentRowIndex].Value.ToString();
-
-            try
-            {
-                Club c = stocareCluburi.GetClub(Int32.Parse(idClub));
-
-                //incarcarea datelor in controalele de pe forma
-                if (c != null)
-                {
-                    txtNumeClubAdd.Text = c.numeClub;
-                    txtNumeClubEdit.Text = c.numeClub;
-                    txtNumeClubFind.Text = c.numeClub;
-                    txtNumeManagerAdd.Text = c.numeManager;
-                    txtNumeManagerEdit.Text = c.numeManager;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }*/
-        }
-
-        private void dataGridCluburi_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            /*int currentRowIndex = dataGridCluburi.CurrentCell.RowIndex;
-            string idClub = dataGridCluburi[PRIMA_COLOANA, currentRowIndex].Value.ToString();
-
-            try
-            {
-                Club c = stocareCluburi.GetClub(Int32.Parse(idClub));
-
-                //incarcarea datelor in controalele de pe forma
-                if (c != null)
-                {
-                    txtNumeClubAdd.Text = c.numeClub;
-                    txtNumeClubEdit.Text = c.numeClub;
-                    txtNumeClubFind.Text = c.numeClub;
-                    txtNumeManagerAdd.Text = c.numeManager;
-                    txtNumeManagerEdit.Text = c.numeManager;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }*/
         }
 
         private void dataGridCluburi_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)

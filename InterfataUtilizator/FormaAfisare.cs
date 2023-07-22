@@ -14,8 +14,6 @@ namespace InterfataUtilizator
         private const bool SUCCES = true;
 
         //initializare obiecte utilizate pentru salvarea datelor in baza de date (sau alte medii de stocare...daca exista implementare corespunzatoare)
-        //IStocareCompanii stocareCompanii = (IStocareCompanii)new StocareFactory().GetTipStocare(typeof(Companie));
-        //IStocareMasini stocareMasini = (IStocareMasini)new StocareFactory().GetTipStocare(typeof(Masina));
         IStocareClub stocareCluburi = (IStocareClub)new StocareFactory().GetTipStocare(typeof(Club));
         IStocareEchipa stocareEchipe = (IStocareEchipa)new StocareFactory().GetTipStocare(typeof(Echipa));
         public FormaAfisare()
@@ -25,7 +23,6 @@ namespace InterfataUtilizator
             {
                 MessageBox.Show("Eroare la initializare");
             }
-            //MessageBox.Show(stocareCluburi.GetClub(0).numeManager);
         }
 
         #region handlere ale evenimentelor formei
@@ -65,10 +62,6 @@ namespace InterfataUtilizator
                 if (c != null)
                 {
                     lblIdMasina.Text = c.idClub.ToString();
-                   // txtData.Text = c.DataFabricatie.ToShortDateString();
-                  //  cmbCompanii.SelectedItem = new ComboItem(m.Companie.Nume, m.IdCompanie);
-                  //  txtModel.Text = m.Model;
-                  //  txtPret.Text = m.Pret.ToString();
                 }
             }
             catch (Exception ex)
@@ -125,34 +118,7 @@ namespace InterfataUtilizator
 
         #region metode helper
 
-        /// <summary>
-        /// Afiseaza companiile din tabelul companii_DEV in controlul de tip combobox
-        /// </summary>
-        private void IncarcaCompanii()
-        {/*
-            try
-            {
-                //se elimina itemii deja adaugati
-                cmbCompanii.Items.Clear();
-
-                var companii = stocareCompanii.GetCompanii();
-                if (companii != null && companii.Any())
-                {
-                    foreach (var companie in companii)
-                    {
-                        cmbCompanii.Items.Add(new ComboItem(companie.Nume, (Int32)companie.IdCompanie));
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }*/
-        }
-
-        /// <summary>
-        /// afiseaza informatiile complete despre masini 
-        /// </summary>
+ 
         private void AfiseazaCatalog()
         {
             try

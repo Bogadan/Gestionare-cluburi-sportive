@@ -42,9 +42,6 @@ namespace InterfataUtilizator
         #endregion
 
         #region handlere ale evenimentelor controalelor de pe forma (butoane)
-        /// <summary>
-        /// Adauga informatiile despre o masina in tabelul catalog_DEV
-        /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// 
@@ -55,10 +52,6 @@ namespace InterfataUtilizator
            
         }
         
-
-        /// <summary>
-        /// Adauga o companie in tabelul companii_DEV
-        /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnAdaugaComp_Click(object sender, EventArgs e)
@@ -75,11 +68,7 @@ namespace InterfataUtilizator
         #endregion
 
         #region metode helper
-
-        /// <summary>
-        /// Afiseaza companiile din tabelul companii_DEV in controlul de tip combobox
-        /// </summary>
-        
+     
         
         private void IncarcaJucatori()
         {
@@ -146,12 +135,6 @@ namespace InterfataUtilizator
             }
         }
 
-
-/*        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }*/
-
         private void btnActualizeaza_Click(object sender, EventArgs e)
         {
             string mesajValidare = ValidareDateJucator();
@@ -206,28 +189,6 @@ namespace InterfataUtilizator
             }
         }
 
-        private void dataGridCluburi_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            /*int currentRowIndex = dataGridEchipe.CurrentCell.RowIndex;
-            string idEchipa = dataGridEchipe[PRIMA_COLOANA, currentRowIndex].Value.ToString();
-
-            try
-            {
-                Echipa c = stocareEchipe.GetEchipa(Int32.Parse(idEchipa));
-
-                //incarcarea datelor in controalele de pe forma
-                if (c != null)
-                {
-                    txtNumeJucator.Text = c.numeEchipa;
-                    txtPrenumeJucator.Text = c.oras;
-                    txtRolJucator.Text = c.numeAntrenor;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-            }*/
-        }
 
         private void buttonSterge_Click(object sender, EventArgs e)
         {
@@ -271,7 +232,6 @@ namespace InterfataUtilizator
                     txtPrenumeJucator.Text = c.prenumeJucator;
                     txtRolJucator.Text = c.rolJucator;
                     txtSalariuJucator.Text = c.salariuJucator.ToString();
-                    //txtVarstaJucator.Text = c.varstaJucator.ToString();
                     dtpNastere.Value = c.dataNastereJucator;
 
                     //repair: selectare corecta
