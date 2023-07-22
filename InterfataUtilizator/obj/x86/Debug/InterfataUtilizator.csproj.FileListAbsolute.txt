@@ -1,0 +1,9 @@
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.csproj.AssemblyReference.cache
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.FormaAfisare.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.FormaJucator.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.FormaEchipa.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.FormaClub.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\DotNetOracle.FormaCautare.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\DotNetOracle.Properties.Resources.resources
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.csproj.GenerateResource.cache
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\InterfataUtilizator\obj\x86\Debug\InterfataUtilizator.csproj.CoreCompileInputs.cache

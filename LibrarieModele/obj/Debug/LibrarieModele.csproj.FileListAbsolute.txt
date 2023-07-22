@@ -1,0 +1,6 @@
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\bin\Debug\LibrarieModele.dll
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\bin\Debug\LibrarieModele.pdb
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\obj\Debug\LibrarieModele.csproj.AssemblyReference.cache
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\obj\Debug\LibrarieModele.csproj.CoreCompileInputs.cache
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\obj\Debug\LibrarieModele.dll
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\LibrarieModele\obj\Debug\LibrarieModele.pdb

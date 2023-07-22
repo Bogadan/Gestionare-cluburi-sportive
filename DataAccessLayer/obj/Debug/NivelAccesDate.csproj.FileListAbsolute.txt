@@ -1,0 +1,2 @@
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\DataAccessLayer\obj\Debug\NivelAccesDate.csproj.AssemblyReference.cache
+C:\Bobo\materiale_cursuri\PROIECT_BAZE_DE_DATE\Proiect_Niculica_Bogdan\DataAccessLayer\obj\Debug\NivelAccesDate.csproj.CoreCompileInputs.cache
